@@ -1,6 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react'
-import { View, Text, Button, StyleSheet } from 'react-native'
+import { View, Button, StyleSheet } from 'react-native'
+import { Text } from 'react-native-paper'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import ShopNavigator from '../navigation/ShopNavigator';
 
