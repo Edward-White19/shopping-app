@@ -12,7 +12,7 @@ export default function HelpScreen(props) {
       <Text variant="displaySmall" style={styles.title}>
         Help Screen
       </Text>
-      <View style={styles.switchContainer} theme={{ color: "secondary" }}>
+      <View style={styles.switchContainer} secondary={true}>
         <Text variant="titleSmall" style={styles.subtitle}>
           Current Theme: {isDarkTheme ? "Dark" : "Light"}
         </Text>
